@@ -76,6 +76,7 @@ header {
 
 header nav {
     display:flex;
+    flex-direction: row;
     flex-wrap:wrap;
     padding-top: 20px;
     margin-right: 30px;
@@ -84,11 +85,12 @@ header nav {
 }
 
 header nav ul {
+    display:flex;
     list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     margin-left: 10px;
 }
@@ -141,6 +143,7 @@ footer {
     margin: 2%;
     padding: 20px;
     width: 96%;
+    justify-content: space-between;
     border:solid;
     display:flex;
     flex-wrap: wrap;
@@ -160,7 +163,6 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    justify-content: space-between;
     margin: 25px;
     font-size: 24px;
     border-bottom: solid;
