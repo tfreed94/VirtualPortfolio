@@ -2,115 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Troy Freed's Porfolio</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Troy Freed's Porfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>My First Portfolio!</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li> 
-            </ul>
-        </nav>
-    </header>
-
-    <article id="about-me">
-        <section class="img-position">
-            <img src="assets/images/picofme.png" alt= "Picture of me!" class="response" width="200" height="200">
-            <h2>Hello! My name is Troy Freed Jr! This portfolio is the first website I've ever created!</h2>
-        </section>
-
-        <section>
-            <h1>About Me</h1>
-            <p>
-                Hello all! I'm Troy Freed Jr, I'm 26 years old and I am currently in my third week of my Web Development course here at Case Western. Before I started here I had absolutely zero knowledge of what really went into web development. I have been curious my entire life being someone who has spent so much time on a computer. Since I have started here at Case, I have learned HTML, Advanced CSS, and beginner level JavaScript. It has been tough, but the more I solve issues with code and learn about these different languages, the more I am fueled to keep pushing my knowdledge of Web Development. I am beyond excited to see what else is in store for me throughout this course!
-            </p>
-            <p>
-                Though I've just started at Case and have not even begun to scratch the surface of the Web Development World, I am driven to become a full stack Web Developer with the skills to create my own Web Applications. This portfolio is my first attempt at writing my own code after three weeks of learning, it may not be much, but I couldn't be more proud. It is my biggest and only accomplishment in Web Development, but I've managed to create a fully responsive web page with functional navigation links, links to other websites, and hover attributes. I cannot wait to see what else I will be creating and adding to this portfolio!
-            </p>
-        </section> 
-    </article>
-        
-     <main>    
-        <section id="work">
-            <h1>Work</h1>
-            <section class="work-style">
-                <a href="">
-                <img src="assets/images/placeholder1.png" alt="placeholder image" class="response">
-                </a>
-                <h2>
-                    To Be Continued...
-                </h2>
-            </section>
-            <section class="work-style2">
-                <a href="">
-                    <img src="assets/images/placeholder2.png" alt="placeholder image" class="response">
-                </a>
-                <h2>
-                    To Be Continued...
-                </h2>
-            </section>
-            <section class="work-style2">
-                <a href="">
-                    <img src="assets/images/placeholder2.png" alt="placeholder image"  class="response">
-                </a>
-                <h2>
-                    To Be Continued...
-                </h2>
-            </section>
-            <section class="work-style2">
-                <a href="">
-                    <img src="assets/images/placeholder2.png" alt="placeholder image"  class="response">
-                </a>
-                <h2>
-                    To Be Continued...
-                </h2>
-            </section>
-            <section class="work-style2">
-                <a href="">
-                    <img title="This is the title" src="assets/images/placeholder2.png" alt="placeholder image" class="response">
-                    </a>
-                    <h2>
-                        To Be Continued...
-                    </h2>
-            </section>
-
-        </section>
-        
+    <main class="d-flex min-vh-100">
+        <div class="container-fluid my-auto name">
+            <h1 class="display-3 text-center">Troy R Freed Jr</h1>
+            <div class="col-12 mt-3 text-center">
+                <img src="assets/images/picofme.png" alt="Picture of me!" class="picofme">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-9 p-4 bg-dark">
+                    <div class="row">
+                        <div class="col-12 col-md-4 ">
+                            <a href="./about.html" class="btn btn-block p-3 my-2 btn-success">Navbar</a>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <a href="./contact.html" class="btn btn-block p-3 my-2 btn-danger">Cards</a>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <a href="./work.html" class="btn btn-block p-3 my-2 btn-info">Forms</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-        <footer id="contact-me">
-            <h1>Contact Me</h1>
-                <ul>
-                    <li>
-                        330.840.0979
-                    </li>
-                    <li>
-                        tfreed94@gmail.com
-                    </li>
-                    <li>
-                        <a href="https://github.com/tfreed94">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/troy-freed-jr-737635206/">LinkedIn</a>
-                    </li>
-                </ul>
-
-        </footer>
-    
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
