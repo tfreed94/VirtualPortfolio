@@ -78,24 +78,21 @@ img:hover {
     height: auto;
 }
 
-/* Header */
-
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2%;
-    padding: 20px;
-    border: solid;
-    font-family: 'sans-serif';
-    background-color: rgba(92, 92, 92, 0.589);
-    color: #000000;
+.contact {
+    padding-right: 20px;
+    background-color: purple;
+    color:black;
 }
 
-/* Header Navbar */
+#contact-me h1 {
+    display: flex;
+    justify-content: center;
+}
 
-
-
+.contactinfo {
+    margin: 75px;
+    padding: 50px;
+}
 /* Article tag */
 
 article {
