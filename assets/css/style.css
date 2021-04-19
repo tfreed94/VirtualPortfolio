@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: purple;
 }
 
 p {
@@ -32,6 +32,14 @@ h2 {
     margin: 2%;
     font-size: 34px;
     font-family: sans-serif;
+}
+
+.btn1, .btn2, .btn3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(114, 25, 114);
+    color: black;
 }
 
 /* Color changes for images on hover */
