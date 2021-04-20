@@ -1,9 +1,20 @@
-For this project I created a virtual portfolio using HTML and CSS. I designed it to show my a picture of me with navigation links in the nav bar so users can easily find the information they're looking for. I created an about me section describing myself with a picture of me. Then I created a section for my future web applications to be placed to display what I have learned during this course. Then I created a contact information section proving my e-mail and phone number. As well as, links to my github and linked pages.
+# My Portfolio
+# Technologies Used
+ HTML, CSS, and Bootstrap.
 
-<!-- The fullsize capture of the website distorts webpage formatting. -->
+ # Contact Info
+ tfreedwebdev94@gmail.com
+
+# Description
+I created a responsive webpage to display my portfolio. I have 4 separate pages in my portfolio. A homepage, with buttons to navigate through my site. An about me page, that describes who I am and my goals. A contact information page, that displays my LinkedIn and Github accounts, my mobile phone number, my resume, and my business e-mail. Lastly a work page, that displays my first group project and 2 of my best homework assignments so far in the course. 
 
 
+# Screenshots
+![](assets/images/virtualportfoliopic.png)
+![](assets/images/virtualportfoliopic2.png)
 
-![screenshot]VirtualPortfolio/assets/images/_C__Bootcamp_Week2_Homework_VirtualPortfolio_index.html (5).png
+# Link To App
+(https://tfreed94.github.io/VirtualPortfolio/)
 
-https://tfreed94.github.io/VirtualPortfolio/
+# License
+This project is license under the terms of the MIT license.
