@@ -140,33 +140,3 @@ main {
     display:inline-block;
 }
 
-/* Footer */
-
-footer {
-    margin: 2%;
-    padding: 20px;
-    width: 96%;
-    justify-content: space-between;
-    border:solid;
-    display:flex;
-    flex-wrap: wrap;
-    background-color: rgba(92, 92, 92, 0.589);
-}
-
-footer h1 {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 48px;
-    font-family: sans-serif;
-}
-
-footer ul {
-    list-style-type: none;
-}
-
-footer ul li {
-    display: inline-block;
-    margin: 25px;
-    font-size: 24px;
-    border-bottom: solid;
-}
