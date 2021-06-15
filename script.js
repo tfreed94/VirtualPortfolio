@@ -1,0 +1,9 @@
+$('.btn1').click(function(){
+    window.location.href='about.html';
+ })
+ $('.btn3').click(function(){
+    window.location.href='contact.html';
+ })
+ $('.btn2').click(function(){
+    window.location.href='work.html';
+ })
