@@ -1,6 +1,6 @@
 # My Portfolio
 # Technologies Used
- HTML, CSS, and Bootstrap.
+ HTML, CSS, Bootstrap, Javascript, and jQuery
 
  # Contact Info
  tfreedwebdev94@gmail.com
