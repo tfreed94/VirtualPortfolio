@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:black;
+    background-color:#fff;
 }
 
 p {
@@ -35,29 +35,26 @@ h2 {
 }
 
 .btn1, .btn2, .btn3 {
-    display: flex;
-    justify-content: center;
-    border-radius: 50%;
-    background-color:black;
-    color: purple;
+    background-color: #f1c2b3;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 
-/* Color changes for images on hover */
-
-a:hover {
-    color:gray;
+.btn1:hover {
+    color: #BD5D38;
 }
-
-img {
-    opacity: 0.5;
-    filter: alpha(opacity=40);
+.btn2:hover {
+    color: #BD5D38
 }
-
-img:hover {
-    opacity: 1.0;
-    filter: alpha(opacity=100);
+.btn3:hover {
+    color: #BD5D38
 }
-
 
 /* Class making images responsive. */
 
@@ -80,8 +77,8 @@ img:hover {
 
 .contact {
     padding-right: 20px;
-    background-color: purple;
-    color:black;
+    background-color: #BD5D38;
+    color:#fff;
 }
 
 #contact-me h1 {
@@ -100,7 +97,7 @@ article {
     flex-wrap: wrap;
     margin: 2%;
     padding-right: 20px;
-    background-color: purple;
+    background-color: #BD5D38;
     border: solid;
 
 }
@@ -124,8 +121,8 @@ main {
     display:flex;
     flex-wrap: wrap;
     margin: 2%;
-    background-color:purple;
-    color: rgb(0, 0, 0);
+    background-color:#BD5D38;
+    color: #fff;
     border: solid;
 }
 
@@ -139,4 +136,5 @@ main {
     margin: 2%;
     display:inline-block;
 }
+
 

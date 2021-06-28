@@ -2,8 +2,8 @@ $('.btn1').click(function(){
     window.location.href='about.html';
  })
  $('.btn3').click(function(){
-    window.location.href='contact.html';
+    window.location.href='work.html';
  })
  $('.btn2').click(function(){
-    window.location.href='work.html';
+    window.location.href='contact.html';
  })
